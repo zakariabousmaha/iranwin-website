@@ -7,17 +7,23 @@
     <style>
         body { font-family: 'Arial', sans-serif; background-color: #0b0e11; color: white; text-align: center; margin: 0; padding: 0; }
         .hero { padding: 50px 20px; background: linear-gradient(180deg, #1a1f26 0%, #0b0e11 100%); }
-        img { max-width: 300px; border-radius: 50%; border: 5px solid #ff0000; box-shadow: 0 0 20px #00ff00; }
-        h1 { color: #00ff00; font-size: 3rem; margin: 20px 0; }
-        .ticker { background: #ff0000; padding: 5px 15px; border-radius: 5px; font-weight: bold; }
+        img { max-width: 300px; border-radius: 50%; border: 5px solid #ff0000; box-shadow: 0 0 20px #00ff00; margin-bottom: 20px; }
+        h1 { color: #00ff00; font-size: 3rem; margin: 10px 0; }
+        .ticker { background: #ff0000; padding: 5px 15px; border-radius: 5px; font-weight: bold; font-size: 1.5rem; }
+        .countdown { font-size: 1.8rem; color: #ffcc00; font-weight: bold; margin: 25px 0; padding: 15px; border: 2px dashed #ffcc00; display: inline-block; }
         .story { padding: 40px 20px; max-width: 800px; margin: auto; line-height: 1.6; font-size: 1.2rem; }
-        .countdown { font-size: 2rem; color: #ffcc00; font-weight: bold; margin: 20px 0; padding: 20px; border: 2px dashed #ffcc00; display: inline-block; }
-        .btn { display: inline-block; padding: 15px 30px; margin: 10px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1.2rem; transition: 0.3s; }
-        .buy { background: #00ff00; color: black; }
+        
+        /* Boutons de réseaux sociaux */
+        .btn-container { margin-top: 30px; display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; }
+        .btn { display: inline-block; padding: 15px 30px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1.1rem; transition: 0.3s; min-width: 180px; }
+        .buy { background: #00ff00; color: black; border: 2px solid #00ff00; }
+        .buy:hover { background: transparent; color: #00ff00; }
         .tg { background: #0088cc; color: white; }
-        .x { background: #ffffff; color: black; }
+        .x { background: #000000; color: white; border: 1px solid #ffffff; }
+        
         .tokenomics { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; padding: 40px; }
         .card { background: #1a1f26; padding: 20px; border-radius: 15px; width: 200px; border: 1px solid #333; }
+        .ca-box { margin-top: 50px; padding: 20px; background: #161b22; font-family: monospace; font-size: 0.9rem; color: #8b949e; word-break: break-all; }
     </style>
 </head>
 <body>
@@ -26,23 +32,29 @@
         <img src="logo.png" alt="IRAN WIN LOGO">
         <h1>$IRANWIN</h1>
         <p><span class="ticker">THE LIGHTS STAYED ON!</span></p>
-        <div class="countdown">5-DAY EXTENSION: DEALMAKER MODE</div>
+        <div class="countdown">NEW 5-DAY ULTIMATUM: THE ART OF THE DEAL</div>
     </div>
 
     <div class="story">
-        <h2>The 48h Countdown ended...</h2>
-        <p>The world held its breath. Trump gave the ultimatum. But the "Dealmaker" chose diplomacy! The lights in Tehran are still ON. We now have a 120-hour window for the ultimate deal. $IRANWIN is the meme for the winners.</p>
-        <a href="https://pump.fun/coin/BdXWBfnEgZEJ4qq6nFmWi7B9sf5jo9x5hEj2Bkwgpump" class="btn buy">BUY ON PUMP.FUN</a>
-        <a href="https://t.me/iranwin26" class="btn tg">JOIN TELEGRAM</a>
+        <h2>The 48h deadline is up...</h2>
+        <p>The missiles were ready. The grid was in the crosshairs. But the "Dealmaker" didn't strike—he negotiated. The lights in Tehran are still shining! We now have 120 hours of pure diplomacy and gains ahead. Don't bet against the man who wrote the book.</p>
+        
+        <div class="btn-container">
+            <a href="https://pump.fun/coin/BdXWBfnEgZEJ4qq6nFmWi7B9sf5jo9x5hEj2Bkwgpump" class="btn buy">BUY $IRANWIN</a>
+            <a href="https://t.me/iranwin26" class="btn tg">TELEGRAM</a>
+            <a href="https://x.com/iranwin26" class="btn x">FOLLOW ON X</a>
+        </div>
     </div>
 
     <div class="tokenomics">
-        <div class="card"><h3>0%</h3><p>TAX</p></div>
+        <div class="card"><h3>0%</h3><p>BUY/SELL TAX</p></div>
         <div class="card"><h3>BURNED</h3><p>LIQUIDITY</p></div>
-        <div class="card"><h3>1 BILLION</h3><p>SUPPLY</p></div>
+        <div class="card"><h3>1 BILLION</h3><p>TOTAL SUPPLY</p></div>
     </div>
 
-    <p style="padding-bottom: 50px;">CA: BdXWBfnEgZEJ4qq6nFmWi7B9sf5jo9x5hEj2Bkwgpump</p>
+    <div class="ca-box">
+        CONTRACT ADDRESS: BdXWBfnEgZEJ4qq6nFmWi7B9sf5jo9x5hEj2Bkwgpump
+    </div>
 
 </body>
 </html>
